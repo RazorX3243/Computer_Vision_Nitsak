@@ -22,7 +22,7 @@ cv2.putText(img, "Email: 05/01/2009", (240, 220), cv2.FONT_HERSHEY_PLAIN, 1, (18
 
 
 print(img.shape)
-
+cv2.imwrite("business_card.png", img)
 cv2.imshow('image', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
