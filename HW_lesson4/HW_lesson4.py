@@ -29,3 +29,4 @@ cv2.imshow('Contours and Bounding Boxes', img_copy_color)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
